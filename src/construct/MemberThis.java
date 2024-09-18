@@ -1,9 +1,9 @@
 package construct;
 
 public class MemberThis {
-    String nameField;
+    public String nameField;
 
-    void initMember(String nameParameter){
+    public void initMember(String nameParameter){
         nameField = nameParameter;
     }
 }
