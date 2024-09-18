@@ -5,11 +5,8 @@ public class MemberConstruct {
     int age;
     int grade;
 
-    //추가
     MemberConstruct(String name, int age) {
-        this.name = name;
-        this.age = age;
-        this.grade = 50;        //성적 값이 없는 Member객체는 성적이 50으로 바뀌게 된다.
+        this(name, age, 50); //변경
     }
 
     MemberConstruct(String name, int age, int grade) {      //생성자 부분
