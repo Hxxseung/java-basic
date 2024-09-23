@@ -1,9 +1,9 @@
 package access;
 
-public class Speaker {
-    private int volume;
+public class Speaker {  //생성자
+    private int volume; //필드
 
-    Speaker(int volume){
+    public Speaker(int volume){ //메서드
         this.volume = volume;
     }
 
