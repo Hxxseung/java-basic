@@ -25,6 +25,7 @@ public class ShoppingCart {
     private int calculateTotalPrice(){
         int totalPrice = 0;
         for(int i = 0; i < itemCount; i++){
+            Item item = items[i];
             totalPrice += items[i].getTotalPrice();
         }
         return totalPrice;
