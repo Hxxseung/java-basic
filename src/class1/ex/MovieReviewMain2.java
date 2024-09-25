@@ -13,8 +13,8 @@ public class MovieReviewMain2 {
         aboutTime.review = "인생 시간 영화!";
         reviews[1] = aboutTime;
 
-        for(int i = 0; i<reviews.length; i++){
-            System.out.println("제목:" + reviews[i].title + ", 리뷰:" + reviews[i].review);
+        for (MovieReview review : reviews) {
+            System.out.println("제목:" + review.title + ", 리뷰:" + review.review);
         }
     }
 }
