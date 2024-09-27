@@ -15,7 +15,7 @@ public class CastingMain6 {
     private static void call(Parent parent) {
         parent.parentMethod();
         //Child 인스턴스인 경우 childMethod() 실행
-        if (parent instanceof Child child) {
+        if (parent instanceof Child child) {    //Pattern Matching for instanceof -> instanceof를 사용하면서 동시에 변수를 선언 : child(변수)
             System.out.println("Child 인스턴스 맞음");
             child.childMethod();
         }
